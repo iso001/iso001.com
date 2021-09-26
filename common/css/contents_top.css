@@ -1,0 +1,503 @@
+@charset "utf-8";
+
+/*__________________________________________________
+
+  mainVis (メインビジュアル)
+  __________________________________________________*/
+
+.mainVis {
+	width: 740px;
+	height: 240px;
+	margin: 20px auto 20px auto;
+	padding: 0;
+	text-align: left;
+	}
+
+/*__________________________________________________
+
+  mainContentsBox (メインコンテンツボックス)
+  __________________________________________________*/
+
+.mainContentsBox {
+	width: 800px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	}
+
+/*__________________________________________________
+
+  caption-title (タイトル)
+  __________________________________________________*/
+
+.caption-title {
+	width: 740px;
+	height: 23px;
+	margin: 0 0 20px 20px;
+	padding: 0;
+	background: url(../../common/img/title_bg01.png) 0 0 no-repeat;
+	text-indent: 30px;
+	color: #ffffff;
+	}
+
+.caption-title h2.caption {
+	margin: 0;
+	padding: 3px 0 0 0;
+	font-size: 14px;
+	font-weight: bold;
+	}
+
+.caption-subtitle {
+	width: 740px;
+	height: 23px;
+	margin: 0 0 10px 20px;
+	padding: 0;
+	background: url(../../common/img/title_bg02.png) 0 0 no-repeat;
+	text-indent: 10px;
+	color: #000000;
+	}
+
+.caption-subtitle h3.caption {
+	margin: 0;
+	padding: 3px 0 0 0;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	}
+
+/*__________________________________________________
+
+  textBox (テキストボックス)
+  __________________________________________________*/
+
+.textBox {
+	width: 700px;
+	height: 100%;
+	margin: 0 0 20px 30px;
+	padding: 0;
+	background: #ffffff;
+	color: #000000;
+	}
+
+.textBoxb {
+	width: 715px;
+	height: 100%;
+	margin: 0 0 20px 30px;
+	padding: 0;
+	background: #eeeeee;
+	border: 1px solid #CCCCCC;
+	color: #000000;
+	}
+
+.textBox p.text {
+	margin: 0;
+	padding: 5px 0 0 5px;
+	line-height: 1.6em;
+	}
+
+.textBox02 {
+	width: 718px;
+	height: 100%;
+	margin: 0 0 20px 30px;
+	padding: 0;
+	background: #EECD9A;
+	color: #000000;
+	}
+
+.textBox02 p.text {
+	margin: 0;
+	padding: 5px 0 0 5px;
+	line-height: 1.6em;
+	}
+
+.textBox03 {
+	width: 510px;
+	height: 100%;
+	margin: 0 0 20px 12px;
+	padding: 0;
+	background: #FFFBBA;
+	color: #000000;
+	}
+
+.textBox03 p.text {
+	margin: 0;
+	padding: 5px 0 0 5px;
+	line-height: 1.6em;
+	}
+
+span.text {
+	background: #ffffff;
+	color: #FF0000;
+	}
+
+.textBox a:link {
+	background-color: #ffffff;
+	color: #0030FF;
+	text-decoration: underline;
+	}
+
+.textBox a:visited {
+	background-color: #ffffff;
+	color: #0030FF;
+	text-decoration: underline;
+	}
+
+.textBox a:hover{
+	background-color: #ffffff;
+	color: #800019;
+	text-decoration: underline;
+	}
+
+.textComboBox {
+	clear: both;
+	width: 510px;
+	height: 140px;
+	margin: 0 0 20px 12px;
+	padding: 0;
+	background: #ffffff;
+	color: #000000;
+	}
+
+.textComboBox02 {
+	clear: both;
+	width: 510px;
+	height: 100px;
+	margin: 0 0 20px 12px;
+	padding: 0;
+	background: #ffffff;
+	color: #000000;
+	}
+
+.textComboBox p.textL {
+	float: left;
+	width: 335px;
+	margin: 0;
+	padding: 5px 5px 0 5px;
+	line-height: 1.6em;
+	}
+
+.textComboBox p.textL2 {
+	float: left;
+	width: 335px;
+	margin: 0;
+	padding: 5px 5px 0 5px;
+	line-height: 1.6em;
+	}
+
+.textComboBox02 p.textL3 {
+	float: left;
+	width: 80px;
+	margin: 0;
+	padding: 5px 5px 0 5px;
+	line-height: 1.6em;
+	}
+
+.textComboBox p.textR {
+	float: left;
+	width: 160px;
+	margin: 0;
+	padding: 5px 0 0 5px;
+	line-height: 1.6em;
+	}
+
+.textComboBox p.textR2 {
+	float: left;
+	width: 158px;
+	margin: 0;
+	padding: 5px 0 0 5px;
+	background: #DEDEDE;
+	border: 1px solid #C5C5C5;
+	line-height: 1.6em;
+	}
+
+.textComboBox02 p.textR3 {
+	float: left;
+	width: 400px;
+	margin: 0;
+	padding: 5px 0 0 5px;
+	line-height: 1.6em;
+	}
+
+.textComboBox p.textR2 span {
+	background: #DEDEDE;
+	color: #FF0000;
+	}
+
+ul.contents01 {
+	margin: 0 0 0 20px;
+	padding: 0;
+	}
+
+ul.contents01 li {
+	margin: 10px 0 20px 0;
+	padding: 0;
+	line-height: 1.6em;
+	}
+
+ul.contents02 {
+	margin: 0 0 0 30px;
+	padding: 0;
+	}
+
+ul.contents02 li {
+	list-style-type: decimal;
+	margin:  0;
+	padding: 0;
+	line-height: 1.6em;
+	}
+
+dl {
+	margin: 0 0 0 5px;
+	padding: 0 0 10px 0;
+	}
+
+dt {
+	margin: 10px 0 0 0;
+	padding: 0;
+	line-height: 1.6em;
+	font-weight: bold;
+	background: #EECD9A;
+	color: #800019;
+	}
+
+dd {
+	margin: 0 0 0 0;
+	padding: 0;
+	line-height: 1.6em;
+	}
+
+dd.sub01 {
+	margin: 0 0 0 15px;
+	padding: 0;
+	line-height: 1.6em;
+	}
+
+strong.manual {
+	background: #EECD9A;
+	color: #800019;
+	}
+
+.textBox03 dl {
+	margin: 0 0 0 5px;
+	padding: 0 0 10px 0;
+	}
+
+.textBox03 dt {
+	margin: 10px 0 0 0;
+	padding: 0;
+	line-height: 1.6em;
+	font-weight: bold;
+	background: #FFFBBA;
+	color: #000000;
+	}
+
+.textBox03 dd {
+	margin: 0 0 0 0;
+	padding: 0;
+	line-height: 1.6em;
+	}
+
+.textBox03 dd.sub01 {
+	margin: 0 0 0 15px;
+	padding: 0;
+	line-height: 1.6em;
+	}
+
+.textBox03 strong.manual {
+	background: #FFFBBA;
+	color: #800019;
+	}
+
+strong.cap01 {
+	background: #ffffff;
+	color: #000000;
+	font-size: 16px;
+	}
+
+strong.cap02 {
+	background: transparent;
+	color: #008AFF;
+	}
+
+strong.cap03 {
+	background: transparent;
+	color: #008AFF;
+	font-size: 14px;
+	}
+
+
+/*__________________________________________________
+
+  Contents table (運営概要用テーブル)
+  __________________________________________________*/
+
+table.unei {
+	clear: both;
+	width: 505px;
+	margin-top: -40px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	background: #ffffff;
+	color: #3C3C3C;
+	font-size: 12px;
+	text-align: left;
+	}
+
+table.unei th.title {
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid #800019;
+	background: #fff;
+	text-indent: -9999px;
+	}
+
+table.unei th {
+	width: 100px;
+	margin: 0;
+	padding: 10px;
+	background: #F5F5F5;
+	border-left: 1px solid #DEDCDD;
+	border-right: 1px solid #DEDCDD;
+	border-bottom: 1px solid #DEDCDD;
+	color: #3C3C3C;
+	font-weight: normal;
+	vertical-align: middle;
+	line-height: 1.6em;
+	text-align: left;
+	}
+
+table.unei td {
+	margin: 0;
+	padding: 10px;
+	background: #fff;
+	border-left: 1px solid #DEDCDD;
+	border-right: 1px solid #DEDCDD;
+	border-bottom: 1px solid #DEDCDD;
+	color: #3C3C3C;
+	line-height: 1.6em;
+	text-align: left;
+	}
+
+table.unei strong {
+	background: #F5F5F5;
+	color: #000;
+	font-size: 11px;
+	}
+
+table.unei a:link {
+	background-color: #ffffff;
+	color: #0030FF;
+	text-decoration: underline;
+	}
+
+table.unei a:visited {
+	background-color: #ffffff;
+	color: #0030FF;
+	text-decoration: underline;
+	}
+
+table.unei a:hover{
+	background-color: #ffffff;
+	color: #800019;
+	text-decoration: underline;
+	}
+
+/*__________________________________________________
+
+  Contents table (特定商取引用テーブル)
+  __________________________________________________*/
+
+table.tokutei {
+	clear: both;
+	width: 505px;
+	margin-top: -20px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	background: #ffffff;
+	color: #3C3C3C;
+	font-size: 12px;
+	text-align: left;
+	}
+
+table.tokutei th.title {
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid #800019;
+	background: #fff;
+	text-indent: -9999px;
+	}
+
+table.tokutei th {
+	width: 100px;
+	margin: 0;
+	padding: 10px;
+	background: #F5F5F5;
+	border-left: 1px solid #DEDCDD;
+	border-right: 1px solid #DEDCDD;
+	border-bottom: 1px solid #DEDCDD;
+	color: #3C3C3C;
+	font-weight: normal;
+	vertical-align: middle;
+	line-height: 1.6em;
+	text-align: left;
+	}
+
+table.tokutei td {
+	margin: 0;
+	padding: 10px;
+	background: #fff;
+	border-left: 1px solid #DEDCDD;
+	border-right: 1px solid #DEDCDD;
+	border-bottom: 1px solid #DEDCDD;
+	color: #3C3C3C;
+	line-height: 1.6em;
+	text-align: left;
+	}
+
+table.tokutei strong {
+	background: #F5F5F5;
+	color: #000;
+	font-size: 11px;
+	}
+
+table.tokutei a:link {
+	background-color: #ffffff;
+	color: #0030FF;
+	text-decoration: underline;
+	}
+
+table.tokutei a:visited {
+	background-color: #ffffff;
+	color: #0030FF;
+	text-decoration: underline;
+	}
+
+table.tokutei a:hover{
+	background-color: #ffffff;
+	color: #800019;
+	text-decoration: underline;
+	}
+
+/*__________________________________________________
+
+  bannerBox (バナーボックス)
+  __________________________________________________*/
+
+.bannerBox03 {
+	width: 534px;
+	height: 100px;
+	margin: 0 auto 10px auto;
+	padding: 0;
+	}
+
+/*__________________________________________________
+
+  imgBox (イメージボックス)
+  __________________________________________________*/
+
+.imgBox {
+	width: 700px;
+	margin: 0 0 0 40px;
+	margin-bottom: 20px;
+	text-align: center;
+	}

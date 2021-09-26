@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+body {
+	width: 100%;
+	background: #ffffff;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	text-align: center;
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	font-size: 12px;
+	color: #000000;
+	}
+
+a:link {
+	background-color: transparent;
+	color: #ffffff;
+	text-decoration: none;
+	}
+
+a:visited {
+	background-color: transparent;
+	color: #ffffff;
+	text-decoration: none;
+	}
+
+a:active {
+	background-color: transparent;
+	color: #ffffff;
+	text-decoration: none;
+	}
+
+a:hover {
+	background-color: transparent;
+	color: #CACACA;
+	text-decoration: none;
+	}
+
+img {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	}
+
+/*__________________________________________________
+
+  font control (フォント管理)
+  __________________________________________________*/
+
+h1 {
+	margin: 0;
+	padding: 0 0 0 5px;
+	background-color: #7f7f7f;
+	color: #ffffff;
+	font-size: 11px;
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	font-weight: bold;
+	}
+
+/*__________________________________________________
+
+  wrap (メイン)
+  __________________________________________________*/
+
+#wrap {
+	width: 900px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	background: url(../../common/img/bg.png) 0 0 repeat-y;
+	color: #000000;
+	text-align: center;
+	}
+
+/*__________________________________________________
+
+  headerArea (ヘッダーエリア)
+  __________________________________________________*/
+
+#headerArea01 {
+	width: 780px;
+	height: 20px;
+	margin: 0 auto;
+	padding: 0;
+	background: #7f7f7f;
+	color: #ffffff;
+	text-align: left;
+	}
+
+#headerArea01 .headerBoxL {
+	float: left;
+	width: 450px;
+	margin: 0;
+	padding: 4px 0 0 0;
+	background: #7f7f7f;
+	color: #ffffff;
+	}
+
+#headerArea01 .headerBoxR {
+	float: right;
+	width: 320px;
+	margin: 0;
+	padding: 4px 10px 0 0;
+	background: #7f7f7f;
+	color: #ffffff;
+	font-size: 11px;
+	text-align: right;
+	}
+
+#headerArea02 {
+	width: 780px;
+	height: 80px;
+	margin: 0 auto;
+	padding: 0;
+	background: #ffffff;
+	color: #000000;
+	text-align: left;
+	}
+
+#headerArea02 .headerBoxL {
+	float: left;
+	width: 267px;
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+	color: #3C3C3C;
+	}
+
+
+/*__________________________________________________
+
+  container (メインコンテナ)
+  __________________________________________________*/
+
+#container {
+	width: 780px;
+	margin: 0 auto;
+	padding: 0;
+	background: #ffffff;
+	color: #000000;
+	text-align: left;
+	}
+
+/*__________________________________________________
+
+  return (リターン)
+  __________________________________________________*/
+
+#return {
+	clear: both;
+	width: 98px;
+	height: 15px;
+	margin: 0 0 10px 660px;
+	padding: 0;
+	}
+
+/*__________________________________________________
+
+  footerArea (フッターエリア)
+  __________________________________________________*/
+
+#footerArea01 {
+	clear: both;
+	width: 780px;
+	height: 55px;
+	margin: 0 auto;
+	padding: 5px 0 0 0;
+	background: #7f7f7f;
+	color: #ffffff;
+	line-height: 1.4em;
+	text-align: center;
+	}
+
+#footerArea02 {
+	clear: both;
+	width: 780px;
+	height: 25px;
+	margin: 0 auto;
+	padding: 5px 0 0 0;
+	background: #F0EEE8;
+	color: #3C3C3C;
+	line-height: 1.4em;
+	text-align: center;
+	}
+
+#footerArea02 a:link {
+	background-color: transparent;
+	color: #3C3C3C;
+	text-decoration: none;
+	}
+
+#footerArea02 a:visited {
+	background-color: transparent;
+	color: #3C3C3C;
+	text-decoration: none;
+	}
+
+#footerArea02 a:active {
+	background-color: transparent;
+	color: #3C3C3C;
+	text-decoration: none;
+	}
+
+#footerArea02 a:hover {
+	background-color: transparent;
+	color: #7D7D7D;
+	text-decoration: none;
+	}

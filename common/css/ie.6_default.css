@@ -1,0 +1,117 @@
+@charset "Shift_JIS";
+
+/*__________________________________________________
+
+  grobalArea (グローバルエリア)
+  __________________________________________________*/
+
+* html #globalArea {
+	float: left;
+	width: 220px;
+	margin: 5px 0 0 5px;
+	padding: 0 0 20px 0;
+	text-align: left;
+	}
+
+* html #global01 {
+	width: 220px;
+	height: 115px;
+	margin: 0;
+	text-align: left;
+	}
+
+* html #global02 {
+	width: 220px;
+	margin: 20px 0 0 0;
+	text-align: left;
+	}
+
+* html ul#navigation01 {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+
+* html ul#navigation02 {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+
+* html ul#navigation01 li a {
+	display: block;
+	list-style: none;
+	height: 31px;
+	margin: -3px 0 0 0;
+	padding: 0;
+	text-decoration: none;
+	}
+
+* html ul#navigation02 li a {
+	display: block;
+	list-style: none;
+	height: 31px;
+	margin: -3px 0 0 0;
+	padding: 0;
+	text-decoration: none;
+	}
+
+/*__________________________________________________
+
+  grobalArea (グローバルエリア)
+  __________________________________________________*/
+
+*:first-child+html #globalArea {
+	float: left;
+	width: 220px;
+	margin: 5px 0 0 10px;
+	padding: 0 0 40px 0;
+	text-align: left;
+	}
+
+*:first-child+html #global01 {
+	width: 220px;
+	height: 115px;
+	margin: 0;
+	text-align: left;
+	}
+
+*:first-child+html #global02 {
+	width: 220px;
+	margin: 20px 0 0 0;
+	text-align: left;
+	}
+
+*:first-child+html ul#navigation01 {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+
+*:first-child+html ul#navigation02 {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+
+*:first-child+html ul#navigation01 li a {
+	display: block;
+	list-style: none;
+	height: 31px;
+	margin: -3px 0 0 0;
+	padding: 0;
+	text-decoration: none;
+	}
+
+*:first-child+html ul#navigation02 li a {
+	display: block;
+	list-style: none;
+	height: 31px;
+	margin: -3px 0 0 0;
+	padding: 0;
+	text-decoration: none;
+	}
